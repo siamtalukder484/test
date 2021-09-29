@@ -1,0 +1,410 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol, ul {
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* ==========================Navbar Part Start Here======================== */
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar-expand-lg{
+    background-color: rgba(17, 17, 17, 0.5);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 44px;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #249ab6;
+}
+/* ==========================Bannar Part Start Here======================== */
+#bannar{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.bannar-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannar-con h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.bannar-con h3{
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+.bannar-con h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 12px;
+}
+/* ==========================Service Part Start Here======================== */
+#service{
+    padding: 80px 0;
+}
+.service-head h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #444;
+    font-family: 'Roboto Slab', serif;
+}
+.service-head h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+}
+.service-head h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+.service-main{
+    padding-top: 30px;
+}
+.service-item{
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+}
+.serv-con h3{
+    font-size: 17px;
+    font-weight: 700;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+.serv-con p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    text-transform: unset;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+/* ==========================Instagram Shots Part Start Here======================== */
+#insta{
+    background-color: #2c2c2c;
+    padding: 50px 0;
+}
+.insta-head h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #d5d5d5;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.insta-head h3::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 100px;
+    background-color: #535353;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.insta-head h3::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 100px;
+    background-color: #535353;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.insta-main{
+    padding-top: 36px;
+}
+.insta-item{
+    height: 325px;
+}
+.insta-item img{
+    line-height: 0;
+}
+.insta-btn{
+    margin-top: 72px;
+}
+.insta-btn a{
+    padding: 18px 20px;
+    border: 1px solid #797979;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a6a6a6;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.insta-btn a:hover{
+    background-color: #f0f0f0;
+    color: #444;
+}
+/* ==========================Journal Part Start Here======================== */
+#journal{
+    padding: 78px 0 84px 0;
+}
+.journal-head h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.journal-head h3::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+    background-color: #d9d9d9;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.journal-head h3::before{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+    background-color: #d9d9d9;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.journal-main{
+    padding-top: 30px;
+}
+.journal-item{
+    border: 1px solid #e3e3e3;
+    padding: 25px 0;
+}
+.journal-con-top h3{
+    font-size: 17px;
+    font-weight: 700;
+    color: #444;
+    font-family: 'Roboto Slab', serif;
+}
+.journal-con-top h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.journal-con-bottom{
+    padding: 0 25px;
+}
+.journal-con-bottom p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    margin-bottom: 0;
+    padding: 23px 0 10px 0;
+}
+.journal-read-more a{
+    font-size: 11px;
+    font-weight: 400;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #28b8d8;
+}
+.journal-react span{
+    font-size: 11px;
+    font-weight: 400;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    padding-top: 7px;
+}
+/* ==========================About Part Start Here======================== */
+#about{
+    padding-bottom: 80px;
+}
+.about-head h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.about-head h3::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 35%;
+    height: 1px;
+    width: 100px;
+    background-color: #d9d9d9;
+}
+.my-service .about-head h3::after{
+    left: 25%;
+}
+.about-main{
+    display: flex;
+    padding-top: 30px;
+}
+.about-con{
+    padding-left: 20px;
+}
+.about-con h4{
+    font-size: 17px;
+    font-weight: 300;
+    color: #666;
+    font-family: 'Roboto Slab', serif;
+    line-height: 28px;
+}
+.about-con h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    padding-top: 10px;
+}
+.m-serv-item{
+    display: flex;
+    padding-top: 25px;
+}
+.m-serv-con{
+    padding-left: 20px;
+}
+.m-serv-con h4{
+    font-size: 17px;
+    font-weight: 700;
+    color: #444;
+    font-family: 'Roboto Slab', serif;
+    text-transform:capitalize;
+}
+.m-serv-con h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    padding-top: 5px;
+}
+/* ==========================Footer Part Start Here======================== */
+#footer{
+    background-color: #373737;
+    padding: 70px 0 40px 0;
+}
+.f-head h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.f-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+.f-social p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+}
+.f-bottom{
+    background-color: #333333;
+    padding: 35px 0;
+}
+.f-bottom h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+/* ==========================Navbar Part Start Here======================== */
+/* ==========================Navbar Part Start Here======================== */
+/* ==========================Navbar Part Start Here======================== */
